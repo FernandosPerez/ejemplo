@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "coolify.local",
-    "192.168.100.114:8001",
+    "192.168.100.114",
     os.environ.get("ALLOWED_HOST", "allowed_host"),
 ]
 
